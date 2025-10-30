@@ -1,30 +1,47 @@
-# 🪙 SkillMint
+# 💎 SkillMint — On-Chain Verified Skill NFTs
 
-SkillMint mints **on-chain NFTs for verified skilled achievements**.  
-Each NFT represents a verified skill certificate that lives permanently on the blockchain.
-
----
-
-## 📜 Contract Details
-
-- **Network:** Celo Sepolia Testnet  
-- **Deployer Address:** `0x2C...6F6F`  
-- **Transaction Hash:** `0x3a2ee4af52814c3c9cbe5a3fca0f660199c7d3cfec8c80a76389db64b79a7fe`  
-- **Contract Address:** [View on Celo Explorer](https://celo-sepolia.blockscout.com/tx/0xe3a2ee4af52814c3c9cbe5a3fca0f660199c7d3cfec8c80a76389db64b79a7fe)
+SkillMint is a blockchain-based credentialing system that mints **on-chain NFTs for verified skills and achievements**.  
+Each NFT serves as tamper-proof proof of skill ownership — issued only by verified authorities or organizations.
 
 ---
 
-## 📸 Screenshot of Deployment
+## 🧠 Project Description
 
-Below is the proof of successful contract deployment on Celo Sepolia Testnet:
+Traditional certificates are easy to forge or lose. **SkillMint** solves this by issuing **NFT-based credentials** directly on the blockchain.  
+Each credential (NFT) represents a verified skill, stored securely and transparently on-chain.
 
-![Transaction Screenshot](<img width="2880" height="1620" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/541566af-de70-4dcf-97a0-bb3ef12f47a7" />
-)
+Built with **Solidity** and **OpenZeppelin**, SkillMint ensures reliability, ownership transparency, and global verifiability.
 
 ---
 
-## 👨‍💻 Developer
+## ⚙️ What It Does
 
-**Name:** Srezon Banerjee  
-**Project:** SkillMint  
-**Purpose:** To reward verified skill achievements with blockchain-backed NFTs.
+- Lets a **verified issuer (contract owner)** mint NFTs that represent a recipient’s skill.  
+- Stores details like skill name, description, recipient, and issue date directly on-chain.  
+- Allows anyone to verify the authenticity of a skill NFT.  
+- Provides transparent and permanent proof of achievements for Web3 resumes or portfolios.
+
+---
+
+## ✨ Features
+
+✅ **On-Chain Verification** — Skills are permanently recorded on the blockchain.  
+✅ **ERC-721 Standard** — Compatible with wallets and NFT explorers.  
+✅ **Secure Minting** — Only authorized issuers (contract owner) can mint new skills.  
+✅ **Publicly Verifiable** — Anyone can confirm an NFT’s authenticity.  
+✅ **Future-Ready** — Extendable for metadata, badges, or decentralized verification networks.
+
+---
+
+## 🌐 Deployed Smart Contract
+
+- **Network:** CELO Sepolia Testnet  
+- **Contract Address:** [`0xe5ddC08ed9bE80DAc4d6c432955cb14D6c82F6B4`](https://celo-sepolia.blockscout.com/address/0xe5ddC08ed9bE80DAc4d6c432955cb14D6c82F6B4)  
+- **Explorer:** [Blockscout - CELO Sepolia](https://celo-sepolia.blockscout.com)
+
+---
+
+## 🧩 Smart Contract Code
+
+```solidity
+//paste your code
